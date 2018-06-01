@@ -9,7 +9,7 @@ class AccountInquiryItem extends Component {
       <div className='ai-item'>
 
         {deposit === 1 ? (
-          <div className='deposit' >            
+          <div className='deposit' >
             <div className='aitext'>
               입금 {time} {val} {name}
             </div>
