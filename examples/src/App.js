@@ -11,7 +11,6 @@ class App extends Component {
 
 
   render () {
-    console.log(this.state.data[0].name)
     
     return (
       <div>

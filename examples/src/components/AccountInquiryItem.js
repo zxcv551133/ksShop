@@ -7,13 +7,18 @@ class AccountInquiryItem extends Component {
 
     return (
       <div className='ai-item'>
-      {deposit === 1 ? (
-        <div className='deposit' >
-          {time} {val} {name}
-        </div>
+
+        {deposit === 1 ? (
+          <div className='deposit' >            
+            <div className='aitext'>
+              입금 {time} {val} {name}
+            </div>
+          </div>
       ) : (
         <div className='withdraw' >
-          {time} {val} {name}
+          <div className='aitext'>
+            출금 {time} {val} {name}
+          </div>
         </div>
       )}
       </div>
