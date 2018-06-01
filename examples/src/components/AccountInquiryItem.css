@@ -1,0 +1,37 @@
+.ai-item{
+  padding: 1rem;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center; /* 세로 가운데 정렬 */
+  cursor: pointer;
+  transition: all 0.15s;
+  user-select: none;
+  font-size: 9;
+}
+
+.aitext {
+  flex:1
+}
+
+/* 입금 */
+.deposit{
+  background: #90e988
+}
+/* 출금 */
+.withdraw {
+  background: #e98890
+}
+
+.deposit:hover {
+  background: #47f038
+}
+
+.withdraw:hover {
+  background: #f03838
+}
+
+/* 아이템 간격 테두리 */
+.ai-item + .ai-item {
+  border-top: 2px solid #f1f3f5
+}
+
